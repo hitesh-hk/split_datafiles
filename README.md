@@ -1,6 +1,7 @@
 # split_datafiles
 python library to split files from directory
 The input folder shoud have the following format:
+```
 input/
     class1/
         img1.jpg
@@ -10,7 +11,9 @@ input/
         imgWhatever.jpg
         ...
     ...
+```
 In order to give you this:
+```
 output/
     train/
         class1/
@@ -33,3 +36,4 @@ output/
         class2/
             imgc.jpg
             ...
+```
